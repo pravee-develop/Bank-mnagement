@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>BankManagementServlet</display-name>
+  <welcome-file-list>
+ 
+    <welcome-file>home.html</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    
+  </welcome-file-list>
+  
+  
+  <context-param>
+  <param-name>driver-class</param-name>
+  <param-value>com.mysql.cj.jdbc.Driver</param-value>
+  </context-param>
+  
+  <context-param>
+  <param-name>url</param-name>
+  <param-value>jdbc:mysql</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>host</param-name>
+  	<param-value>localhost</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>port</param-name>
+  	<param-value>3306</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>database-name</param-name>
+  	<param-value>banksystem</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>user-name</param-name>
+  	<param-value>root</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>password</param-name>
+  	<param-value>Avenshadow@4179</param-value>
+  </context-param>
+</web-app>
